@@ -1,8 +1,6 @@
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <h1>Code Matter</h1>
     </main>
   );
