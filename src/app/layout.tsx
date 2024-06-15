@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
-import "@/assets/globals.scss";
-
+import "@/app/assets/styles/globals.scss";
+import Navigation from "@/app/components/Navigation/Navigation";
 const roboto = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
