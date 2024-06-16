@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { Baloo_2 } from "next/font/google";
 import "@/app/assets/styles/globals.scss";
 import Navigation from "@/app/components/Navigation/Navigation";
-const roboto = Roboto_Mono({ subsets: ["latin"] });
+const baloo = Baloo_2({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Code Matter's Portfolio",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={baloo.className}>
         <Navigation />
         {children}
       </body>

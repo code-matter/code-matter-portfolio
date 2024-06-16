@@ -105,9 +105,11 @@ nav,
 section {
   display: block;
 }
+html {
+  padding: $xl-gap;
+}
 body {
   line-height: 1;
-  padding: $gap;
 }
 ol,
 ul {
