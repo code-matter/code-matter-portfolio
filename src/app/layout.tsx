@@ -19,8 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={baloo.className}>
         <Navigation />
-        <Construction />
-        {/* {children} */}
+        {children}
       </body>
     </html>
   );
