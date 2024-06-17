@@ -7,5 +7,9 @@
   h1 {
     font-weight: 900;
     font-size: 80px;
+    @include mobile {
+      text-align: center;
+      font-size: 40px;
+    }
   }
 }
