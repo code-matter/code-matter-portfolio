@@ -4,7 +4,7 @@ import Construction from "./components/Construction/Construction";
 
 const Home: NextPage<PageParams> = ({ params }) => {
   return (
-    <main className="main">
+    <main className="home">
       <div>
         <Construction />
       </div>

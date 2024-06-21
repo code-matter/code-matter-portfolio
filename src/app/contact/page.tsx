@@ -4,7 +4,14 @@ import { NextPage } from "next";
 
 const ContactPage: NextPage<PageParams> = ({ params }) => {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "90vh",
+      }}
+    >
       <Construction />
     </div>
   );
