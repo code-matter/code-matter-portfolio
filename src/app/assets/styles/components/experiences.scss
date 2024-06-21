@@ -1,0 +1,30 @@
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .experience {
+    display: flex;
+    align-items: center;
+    &-dates {
+      min-width: 180px;
+      align-self: flex-start;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      &_skills {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: $big-gap;
+        margin-top: $big-gap;
+        &-items {
+          background-color: gray;
+          border-radius: 12px;
+          padding: 8px;
+        }
+      }
+    }
+  }
+}

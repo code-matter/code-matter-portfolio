@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Baloo_2 } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "@/app/assets/styles/globals.scss";
 import Navigation from "@/app/components/Navigation/Navigation";
-import Construction from "./components/Construction/Construction";
-const baloo = Baloo_2({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Code Matter's Portfolio",
@@ -17,9 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={baloo.className}>
+      <body className={montserrat.className}>
         <Navigation />
-        {children}
+        <div className="page-content">{children}</div>
       </body>
     </html>
   );

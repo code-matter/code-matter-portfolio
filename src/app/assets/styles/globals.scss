@@ -3,9 +3,14 @@
 @import "./imports/resets.scss";
 @import "./imports/mixins.scss";
 
+// Layouts
+@import "./layouts/main_layout.scss";
+
 // Pages
 @import "./pages/main.scss";
+@import "./pages/about.scss";
 
 // Components
 @import "./components/navbar.scss";
 @import "./components/construction.scss";
+@import "./components/experiences.scss";

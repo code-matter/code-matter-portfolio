@@ -1,8 +1,8 @@
 import React from "react";
 
-type Props = {};
+type ConstructionProps = {};
 
-const Construction = (props: Props) => {
+const Construction = (props: ConstructionProps) => {
   return (
     <div className="under-construction">
       <h1>UNDER CONSTRUCTION</h1>
