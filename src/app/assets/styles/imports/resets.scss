@@ -152,7 +152,9 @@ h3 {
 html,
 body {
   height: 100%;
+  overflow: hidden;
 }
-body {
-  max-height: 100vh;
+
+* {
+  box-sizing: border-box;
 }
