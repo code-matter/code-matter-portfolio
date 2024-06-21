@@ -39,7 +39,6 @@ export const EXPERIENCES: Experience[] = [
       "ReactJS",
       "Ruby on Rails",
       "MYSQL",
-      "Responsive Web Design",
       "IT Support",
       "Problem Solving",
       "Asset Management",
