@@ -3,9 +3,9 @@ import NavLink from "./NavLink";
 import Image from "next/image";
 import Logo from "@/app/assets/images/logo.svg";
 
-type Props = {};
+type NavigationProps = {};
 
-const Navigation = (props: Props) => {
+const Navigation = (props: NavigationProps) => {
   return (
     <div className="navbar">
       <NavLink href="/">
